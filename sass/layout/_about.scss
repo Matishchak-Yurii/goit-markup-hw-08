@@ -1,0 +1,60 @@
+.section.about-section{
+    padding-bottom: 0;
+}
+.about-title{
+    display: block;
+}
+.about-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30px;
+    background-color: var(--our-team-color);
+    height: 120px;
+}
+.about-main{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;    
+}
+.about-main-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--p-text-color); 
+    padding-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+    .section {
+        padding-top: 60px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .about-title {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    }
+    .content {
+        flex-basis: calc((100% - 2 * 30px) / 2);
+        margin: 15px;
+    }
+    .section {
+        padding-top: 60px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .about-title {
+        display: flex;
+    }
+    .content {
+        flex-basis: calc((100% - 4 * 30px) / 4);
+        margin: 15px;
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+}
